@@ -25,7 +25,7 @@ function AppShell() {
         await apiClient.health();
       } catch (err) {
         if (!cancelled) {
-          toast('Could not reach the AeroTwin API. Is the backend running on :4000?', 'danger');
+          toast('Could not reach the AeroTwin API. Please check the backend connection', 'danger');
         }
       } finally {
         if (!cancelled) {
