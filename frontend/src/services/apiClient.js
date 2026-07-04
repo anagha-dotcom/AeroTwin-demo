@@ -4,7 +4,7 @@
  * Error carrying `.status` on non-2xx responses, so callers can branch
  * on status/code without re-implementing fetch error handling.
  */
-const BASE_URL = ' https://aerotwin-demo.onrender.com/api';
+const BASE_URL = 'https://aerotwin-demo.onrender.com/api';
 
 async function request(path, options = {}) {
   const res = await fetch(`${BASE_URL}${path}`, {
