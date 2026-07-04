@@ -1,0 +1,2099 @@
+{
+  "delhi": {
+    "hazards": [
+      {
+        "id": "hz-delhi-0",
+        "regionId": "delhi",
+        "type": "flood",
+        "name": "Waterlogged Sector A",
+        "cx": 1050,
+        "cy": 632,
+        "r": 90,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-1",
+        "regionId": "delhi",
+        "type": "flood",
+        "name": "Overflow Basin B",
+        "cx": 318,
+        "cy": 163,
+        "r": 89,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-2",
+        "regionId": "delhi",
+        "type": "transmission",
+        "name": "220kV Transmission Corridor C",
+        "cx": 864,
+        "cy": 384,
+        "r": 29,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-3",
+        "regionId": "delhi",
+        "type": "transmission",
+        "name": "High-Voltage Tower Cluster D",
+        "cx": 917,
+        "cy": 614,
+        "r": 31,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-4",
+        "regionId": "delhi",
+        "type": "mobile_tower",
+        "name": "Signal Tower E",
+        "cx": 260,
+        "cy": 433,
+        "r": 21,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-5",
+        "regionId": "delhi",
+        "type": "mobile_tower",
+        "name": "Cellular Relay Tower F",
+        "cx": 165,
+        "cy": 157,
+        "r": 28,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-6",
+        "regionId": "delhi",
+        "type": "substation",
+        "name": "Power Distribution Yard A",
+        "cx": 546,
+        "cy": 419,
+        "r": 27,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-7",
+        "regionId": "delhi",
+        "type": "building",
+        "name": "Commercial Tower Block B",
+        "cx": 401,
+        "cy": 524,
+        "r": 27,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-8",
+        "regionId": "delhi",
+        "type": "building",
+        "name": "Residential High-Rise C",
+        "cx": 684,
+        "cy": 144,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-9",
+        "regionId": "delhi",
+        "type": "nofly",
+        "name": "Restricted Airspace Pocket D",
+        "cx": 380,
+        "cy": 384,
+        "r": 65,
+        "isHazard": true
+      },
+      {
+        "id": "hz-delhi-10",
+        "regionId": "delhi",
+        "type": "bridge",
+        "name": "Rail Bridge E",
+        "cx": 886,
+        "cy": 110,
+        "r": 14,
+        "isHazard": false
+      },
+      {
+        "id": "hz-delhi-11",
+        "regionId": "delhi",
+        "type": "relief_camp",
+        "name": "Relief Camp F",
+        "cx": 779,
+        "cy": 121,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-delhi-12",
+        "regionId": "delhi",
+        "type": "relief_camp",
+        "name": "Evacuation Shelter A",
+        "cx": 902,
+        "cy": 456,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-delhi-13",
+        "regionId": "delhi",
+        "type": "hospital",
+        "name": "District Hospital B",
+        "cx": 1095,
+        "cy": 337,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-delhi-14",
+        "regionId": "delhi",
+        "type": "safe_zone",
+        "name": "Cleared Landing Pad C",
+        "cx": 1095,
+        "cy": 96,
+        "r": 18,
+        "isHazard": false
+      },
+      {
+        "id": "hz-delhi-15",
+        "regionId": "delhi",
+        "type": "safe_zone",
+        "name": "Safe Drone Zone D",
+        "cx": 580,
+        "cy": 548,
+        "r": 18,
+        "isHazard": false
+      }
+    ],
+    "river": [
+      [
+        -40,
+        300
+      ],
+      [
+        80,
+        297
+      ],
+      [
+        200,
+        353
+      ],
+      [
+        320,
+        383
+      ],
+      [
+        440,
+        427
+      ],
+      [
+        560,
+        477
+      ],
+      [
+        680,
+        467
+      ],
+      [
+        800,
+        462
+      ],
+      [
+        920,
+        414
+      ],
+      [
+        1040,
+        337
+      ],
+      [
+        1160,
+        316
+      ]
+    ],
+    "roads": [
+      [
+        [
+          -40,
+          185
+        ],
+        [
+          1240,
+          205
+        ]
+      ],
+      [
+        [
+          347,
+          -40
+        ],
+        [
+          484,
+          800
+        ]
+      ]
+    ],
+    "generatedAt": "2026-07-04T15:19:36.171Z"
+  },
+  "kerala": {
+    "hazards": [
+      {
+        "id": "hz-kerala-0",
+        "regionId": "kerala",
+        "type": "flood",
+        "name": "Overflow Basin A",
+        "cx": 232,
+        "cy": 197,
+        "r": 70,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-1",
+        "regionId": "kerala",
+        "type": "flood",
+        "name": "Flood Inundation Pocket B",
+        "cx": 966,
+        "cy": 548,
+        "r": 56,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-2",
+        "regionId": "kerala",
+        "type": "transmission",
+        "name": "High-Voltage Tower Cluster C",
+        "cx": 1028,
+        "cy": 439,
+        "r": 29,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-3",
+        "regionId": "kerala",
+        "type": "transmission",
+        "name": "400kV Transmission Line D",
+        "cx": 91,
+        "cy": 243,
+        "r": 29,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-4",
+        "regionId": "kerala",
+        "type": "mobile_tower",
+        "name": "Cellular Relay Tower E",
+        "cx": 700,
+        "cy": 364,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-5",
+        "regionId": "kerala",
+        "type": "mobile_tower",
+        "name": "Cellular Relay Tower F",
+        "cx": 719,
+        "cy": 403,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-6",
+        "regionId": "kerala",
+        "type": "substation",
+        "name": "Grid Substation A",
+        "cx": 974,
+        "cy": 197,
+        "r": 27,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-7",
+        "regionId": "kerala",
+        "type": "building",
+        "name": "Commercial Tower Block B",
+        "cx": 168,
+        "cy": 592,
+        "r": 25,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-8",
+        "regionId": "kerala",
+        "type": "building",
+        "name": "High-Rise Cluster C",
+        "cx": 164,
+        "cy": 499,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-9",
+        "regionId": "kerala",
+        "type": "nofly",
+        "name": "Emergency Ops No-Fly Zone D",
+        "cx": 348,
+        "cy": 522,
+        "r": 79,
+        "isHazard": true
+      },
+      {
+        "id": "hz-kerala-10",
+        "regionId": "kerala",
+        "type": "bridge",
+        "name": "Pedestrian Crossing E",
+        "cx": 1057,
+        "cy": 587,
+        "r": 14,
+        "isHazard": false
+      },
+      {
+        "id": "hz-kerala-11",
+        "regionId": "kerala",
+        "type": "relief_camp",
+        "name": "Evacuation Shelter F",
+        "cx": 495,
+        "cy": 266,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-kerala-12",
+        "regionId": "kerala",
+        "type": "relief_camp",
+        "name": "Temporary Relief Center A",
+        "cx": 200,
+        "cy": 637,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-kerala-13",
+        "regionId": "kerala",
+        "type": "hospital",
+        "name": "Community Health Center B",
+        "cx": 508,
+        "cy": 594,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-kerala-14",
+        "regionId": "kerala",
+        "type": "safe_zone",
+        "name": "Safe Drone Zone C",
+        "cx": 684,
+        "cy": 153,
+        "r": 18,
+        "isHazard": false
+      },
+      {
+        "id": "hz-kerala-15",
+        "regionId": "kerala",
+        "type": "safe_zone",
+        "name": "Safe Drone Zone D",
+        "cx": 682,
+        "cy": 267,
+        "r": 18,
+        "isHazard": false
+      }
+    ],
+    "river": [
+      [
+        -40,
+        320
+      ],
+      [
+        80,
+        385
+      ],
+      [
+        200,
+        447
+      ],
+      [
+        320,
+        447
+      ],
+      [
+        440,
+        480
+      ],
+      [
+        560,
+        466
+      ],
+      [
+        680,
+        418
+      ],
+      [
+        800,
+        372
+      ],
+      [
+        920,
+        324
+      ],
+      [
+        1040,
+        305
+      ],
+      [
+        1160,
+        294
+      ]
+    ],
+    "roads": [
+      [
+        [
+          -40,
+          152
+        ],
+        [
+          1240,
+          227
+        ]
+      ],
+      [
+        [
+          318,
+          -40
+        ],
+        [
+          436,
+          800
+        ]
+      ]
+    ],
+    "generatedAt": "2026-07-04T15:37:54.620Z"
+  },
+  "up": {
+    "hazards": [
+      {
+        "id": "hz-up-0",
+        "regionId": "up",
+        "type": "flood",
+        "name": "Overflow Basin A",
+        "cx": 589,
+        "cy": 461,
+        "r": 56,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-1",
+        "regionId": "up",
+        "type": "flood",
+        "name": "Flood Inundation Pocket B",
+        "cx": 453,
+        "cy": 436,
+        "r": 62,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-2",
+        "regionId": "up",
+        "type": "transmission",
+        "name": "220kV Transmission Corridor C",
+        "cx": 957,
+        "cy": 537,
+        "r": 30,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-3",
+        "regionId": "up",
+        "type": "transmission",
+        "name": "High-Voltage Tower Cluster D",
+        "cx": 1044,
+        "cy": 471,
+        "r": 29,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-4",
+        "regionId": "up",
+        "type": "mobile_tower",
+        "name": "Telecom Mast E",
+        "cx": 798,
+        "cy": 180,
+        "r": 22,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-5",
+        "regionId": "up",
+        "type": "mobile_tower",
+        "name": "Cellular Relay Tower F",
+        "cx": 496,
+        "cy": 373,
+        "r": 21,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-6",
+        "regionId": "up",
+        "type": "substation",
+        "name": "Power Distribution Yard A",
+        "cx": 761,
+        "cy": 154,
+        "r": 27,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-7",
+        "regionId": "up",
+        "type": "building",
+        "name": "Residential High-Rise B",
+        "cx": 146,
+        "cy": 662,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-8",
+        "regionId": "up",
+        "type": "building",
+        "name": "Commercial Tower Block C",
+        "cx": 716,
+        "cy": 466,
+        "r": 23,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-9",
+        "regionId": "up",
+        "type": "nofly",
+        "name": "Temporary No-Fly Corridor D",
+        "cx": 664,
+        "cy": 297,
+        "r": 75,
+        "isHazard": true
+      },
+      {
+        "id": "hz-up-10",
+        "regionId": "up",
+        "type": "bridge",
+        "name": "Road Bridge E",
+        "cx": 766,
+        "cy": 374,
+        "r": 14,
+        "isHazard": false
+      },
+      {
+        "id": "hz-up-11",
+        "regionId": "up",
+        "type": "relief_camp",
+        "name": "Relief Camp F",
+        "cx": 648,
+        "cy": 124,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-up-12",
+        "regionId": "up",
+        "type": "relief_camp",
+        "name": "Evacuation Shelter A",
+        "cx": 1084,
+        "cy": 542,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-up-13",
+        "regionId": "up",
+        "type": "hospital",
+        "name": "Community Health Center B",
+        "cx": 279,
+        "cy": 241,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-up-14",
+        "regionId": "up",
+        "type": "safe_zone",
+        "name": "Verified Landing Site C",
+        "cx": 125,
+        "cy": 423,
+        "r": 18,
+        "isHazard": false
+      },
+      {
+        "id": "hz-up-15",
+        "regionId": "up",
+        "type": "safe_zone",
+        "name": "Cleared Landing Pad D",
+        "cx": 118,
+        "cy": 600,
+        "r": 18,
+        "isHazard": false
+      }
+    ],
+    "river": [
+      [
+        -40,
+        466
+      ],
+      [
+        80,
+        437
+      ],
+      [
+        200,
+        384
+      ],
+      [
+        320,
+        350
+      ],
+      [
+        440,
+        331
+      ],
+      [
+        560,
+        284
+      ],
+      [
+        680,
+        305
+      ],
+      [
+        800,
+        334
+      ],
+      [
+        920,
+        389
+      ],
+      [
+        1040,
+        437
+      ],
+      [
+        1160,
+        443
+      ]
+    ],
+    "roads": [
+      [
+        [
+          -40,
+          226
+        ],
+        [
+          1240,
+          242
+        ]
+      ],
+      [
+        [
+          312,
+          -40
+        ],
+        [
+          445,
+          800
+        ]
+      ]
+    ],
+    "generatedAt": "2026-07-04T15:38:20.593Z"
+  },
+  "odisha": {
+    "hazards": [
+      {
+        "id": "hz-odisha-0",
+        "regionId": "odisha",
+        "type": "flood",
+        "name": "Submerged Corridor A",
+        "cx": 260,
+        "cy": 423,
+        "r": 55,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-1",
+        "regionId": "odisha",
+        "type": "flood",
+        "name": "Submerged Corridor B",
+        "cx": 1104,
+        "cy": 310,
+        "r": 75,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-2",
+        "regionId": "odisha",
+        "type": "transmission",
+        "name": "220kV Transmission Corridor C",
+        "cx": 587,
+        "cy": 556,
+        "r": 32,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-3",
+        "regionId": "odisha",
+        "type": "transmission",
+        "name": "400kV Transmission Line D",
+        "cx": 228,
+        "cy": 432,
+        "r": 32,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-4",
+        "regionId": "odisha",
+        "type": "mobile_tower",
+        "name": "Signal Tower E",
+        "cx": 1051,
+        "cy": 445,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-5",
+        "regionId": "odisha",
+        "type": "mobile_tower",
+        "name": "Cellular Relay Tower F",
+        "cx": 950,
+        "cy": 597,
+        "r": 23,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-6",
+        "regionId": "odisha",
+        "type": "substation",
+        "name": "Power Distribution Yard A",
+        "cx": 906,
+        "cy": 325,
+        "r": 28,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-7",
+        "regionId": "odisha",
+        "type": "building",
+        "name": "Commercial Tower Block B",
+        "cx": 893,
+        "cy": 593,
+        "r": 24,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-8",
+        "regionId": "odisha",
+        "type": "building",
+        "name": "Commercial Tower Block C",
+        "cx": 243,
+        "cy": 204,
+        "r": 23,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-9",
+        "regionId": "odisha",
+        "type": "nofly",
+        "name": "Temporary No-Fly Corridor D",
+        "cx": 205,
+        "cy": 458,
+        "r": 66,
+        "isHazard": true
+      },
+      {
+        "id": "hz-odisha-10",
+        "regionId": "odisha",
+        "type": "bridge",
+        "name": "Rail Bridge E",
+        "cx": 122,
+        "cy": 244,
+        "r": 14,
+        "isHazard": false
+      },
+      {
+        "id": "hz-odisha-11",
+        "regionId": "odisha",
+        "type": "relief_camp",
+        "name": "Evacuation Shelter F",
+        "cx": 204,
+        "cy": 391,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-odisha-12",
+        "regionId": "odisha",
+        "type": "relief_camp",
+        "name": "Relief Camp A",
+        "cx": 966,
+        "cy": 200,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-odisha-13",
+        "regionId": "odisha",
+        "type": "hospital",
+        "name": "District Hospital B",
+        "cx": 487,
+        "cy": 214,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-odisha-14",
+        "regionId": "odisha",
+        "type": "safe_zone",
+        "name": "Safe Drone Zone C",
+        "cx": 910,
+        "cy": 591,
+        "r": 18,
+        "isHazard": false
+      },
+      {
+        "id": "hz-odisha-15",
+        "regionId": "odisha",
+        "type": "safe_zone",
+        "name": "Safe Drone Zone D",
+        "cx": 987,
+        "cy": 413,
+        "r": 18,
+        "isHazard": false
+      }
+    ],
+    "river": [
+      [
+        -40,
+        338
+      ],
+      [
+        80,
+        399
+      ],
+      [
+        200,
+        433
+      ],
+      [
+        320,
+        446
+      ],
+      [
+        440,
+        488
+      ],
+      [
+        560,
+        468
+      ],
+      [
+        680,
+        407
+      ],
+      [
+        800,
+        378
+      ],
+      [
+        920,
+        308
+      ],
+      [
+        1040,
+        276
+      ],
+      [
+        1160,
+        294
+      ]
+    ],
+    "roads": [
+      [
+        [
+          -40,
+          227
+        ],
+        [
+          1240,
+          215
+        ]
+      ],
+      [
+        [
+          327,
+          -40
+        ],
+        [
+          436,
+          800
+        ]
+      ]
+    ],
+    "generatedAt": "2026-07-04T15:38:29.288Z"
+  },
+  "punjab": {
+    "hazards": [
+      {
+        "id": "hz-punjab-0",
+        "regionId": "punjab",
+        "type": "flood",
+        "name": "Submerged Corridor A",
+        "cx": 586,
+        "cy": 638,
+        "r": 77,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-1",
+        "regionId": "punjab",
+        "type": "flood",
+        "name": "Waterlogged Sector B",
+        "cx": 295,
+        "cy": 647,
+        "r": 88,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-2",
+        "regionId": "punjab",
+        "type": "transmission",
+        "name": "220kV Transmission Corridor C",
+        "cx": 294,
+        "cy": 158,
+        "r": 29,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-3",
+        "regionId": "punjab",
+        "type": "transmission",
+        "name": "400kV Transmission Line D",
+        "cx": 481,
+        "cy": 277,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-4",
+        "regionId": "punjab",
+        "type": "mobile_tower",
+        "name": "Signal Tower E",
+        "cx": 382,
+        "cy": 92,
+        "r": 25,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-5",
+        "regionId": "punjab",
+        "type": "mobile_tower",
+        "name": "Telecom Mast F",
+        "cx": 929,
+        "cy": 511,
+        "r": 22,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-6",
+        "regionId": "punjab",
+        "type": "substation",
+        "name": "Power Distribution Yard A",
+        "cx": 710,
+        "cy": 669,
+        "r": 30,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-7",
+        "regionId": "punjab",
+        "type": "building",
+        "name": "High-Rise Cluster B",
+        "cx": 522,
+        "cy": 143,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-8",
+        "regionId": "punjab",
+        "type": "building",
+        "name": "High-Rise Cluster C",
+        "cx": 795,
+        "cy": 487,
+        "r": 29,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-9",
+        "regionId": "punjab",
+        "type": "nofly",
+        "name": "Temporary No-Fly Corridor D",
+        "cx": 1062,
+        "cy": 265,
+        "r": 70,
+        "isHazard": true
+      },
+      {
+        "id": "hz-punjab-10",
+        "regionId": "punjab",
+        "type": "bridge",
+        "name": "Road Bridge E",
+        "cx": 566,
+        "cy": 235,
+        "r": 14,
+        "isHazard": false
+      },
+      {
+        "id": "hz-punjab-11",
+        "regionId": "punjab",
+        "type": "relief_camp",
+        "name": "Relief Camp F",
+        "cx": 461,
+        "cy": 433,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-punjab-12",
+        "regionId": "punjab",
+        "type": "relief_camp",
+        "name": "Temporary Relief Center A",
+        "cx": 154,
+        "cy": 480,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-punjab-13",
+        "regionId": "punjab",
+        "type": "hospital",
+        "name": "Community Health Center B",
+        "cx": 118,
+        "cy": 230,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-punjab-14",
+        "regionId": "punjab",
+        "type": "safe_zone",
+        "name": "Cleared Landing Pad C",
+        "cx": 682,
+        "cy": 454,
+        "r": 18,
+        "isHazard": false
+      },
+      {
+        "id": "hz-punjab-15",
+        "regionId": "punjab",
+        "type": "safe_zone",
+        "name": "Verified Landing Site D",
+        "cx": 996,
+        "cy": 138,
+        "r": 18,
+        "isHazard": false
+      }
+    ],
+    "river": [
+      [
+        -40,
+        328
+      ],
+      [
+        80,
+        386
+      ],
+      [
+        200,
+        419
+      ],
+      [
+        320,
+        465
+      ],
+      [
+        440,
+        468
+      ],
+      [
+        560,
+        432
+      ],
+      [
+        680,
+        406
+      ],
+      [
+        800,
+        356
+      ],
+      [
+        920,
+        299
+      ],
+      [
+        1040,
+        284
+      ],
+      [
+        1160,
+        290
+      ]
+    ],
+    "roads": [
+      [
+        [
+          -40,
+          197
+        ],
+        [
+          1240,
+          219
+        ]
+      ],
+      [
+        [
+          359,
+          -40
+        ],
+        [
+          512,
+          800
+        ]
+      ]
+    ],
+    "generatedAt": "2026-07-04T15:43:38.530Z"
+  },
+  "bihar": {
+    "hazards": [
+      {
+        "id": "hz-bihar-0",
+        "regionId": "bihar",
+        "type": "flood",
+        "name": "Waterlogged Sector A",
+        "cx": 465,
+        "cy": 631,
+        "r": 64,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-1",
+        "regionId": "bihar",
+        "type": "flood",
+        "name": "Flood Inundation Pocket B",
+        "cx": 984,
+        "cy": 415,
+        "r": 70,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-2",
+        "regionId": "bihar",
+        "type": "transmission",
+        "name": "220kV Transmission Corridor C",
+        "cx": 659,
+        "cy": 323,
+        "r": 33,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-3",
+        "regionId": "bihar",
+        "type": "transmission",
+        "name": "220kV Transmission Corridor D",
+        "cx": 821,
+        "cy": 534,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-4",
+        "regionId": "bihar",
+        "type": "mobile_tower",
+        "name": "Signal Tower E",
+        "cx": 199,
+        "cy": 555,
+        "r": 27,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-5",
+        "regionId": "bihar",
+        "type": "mobile_tower",
+        "name": "Telecom Mast F",
+        "cx": 748,
+        "cy": 409,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-6",
+        "regionId": "bihar",
+        "type": "substation",
+        "name": "Power Distribution Yard A",
+        "cx": 274,
+        "cy": 347,
+        "r": 25,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-7",
+        "regionId": "bihar",
+        "type": "building",
+        "name": "High-Rise Cluster B",
+        "cx": 391,
+        "cy": 283,
+        "r": 22,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-8",
+        "regionId": "bihar",
+        "type": "building",
+        "name": "Commercial Tower Block C",
+        "cx": 273,
+        "cy": 479,
+        "r": 30,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-9",
+        "regionId": "bihar",
+        "type": "nofly",
+        "name": "Restricted Airspace Pocket D",
+        "cx": 1068,
+        "cy": 303,
+        "r": 69,
+        "isHazard": true
+      },
+      {
+        "id": "hz-bihar-10",
+        "regionId": "bihar",
+        "type": "bridge",
+        "name": "Pedestrian Crossing E",
+        "cx": 382,
+        "cy": 521,
+        "r": 14,
+        "isHazard": false
+      },
+      {
+        "id": "hz-bihar-11",
+        "regionId": "bihar",
+        "type": "relief_camp",
+        "name": "Relief Camp F",
+        "cx": 609,
+        "cy": 345,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-bihar-12",
+        "regionId": "bihar",
+        "type": "relief_camp",
+        "name": "Relief Camp A",
+        "cx": 883,
+        "cy": 487,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-bihar-13",
+        "regionId": "bihar",
+        "type": "hospital",
+        "name": "Community Health Center B",
+        "cx": 1038,
+        "cy": 360,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-bihar-14",
+        "regionId": "bihar",
+        "type": "safe_zone",
+        "name": "Cleared Landing Pad C",
+        "cx": 139,
+        "cy": 536,
+        "r": 18,
+        "isHazard": false
+      },
+      {
+        "id": "hz-bihar-15",
+        "regionId": "bihar",
+        "type": "safe_zone",
+        "name": "Safe Drone Zone D",
+        "cx": 304,
+        "cy": 630,
+        "r": 18,
+        "isHazard": false
+      }
+    ],
+    "river": [
+      [
+        -40,
+        290
+      ],
+      [
+        80,
+        325
+      ],
+      [
+        200,
+        358
+      ],
+      [
+        320,
+        406
+      ],
+      [
+        440,
+        444
+      ],
+      [
+        560,
+        455
+      ],
+      [
+        680,
+        483
+      ],
+      [
+        800,
+        425
+      ],
+      [
+        920,
+        383
+      ],
+      [
+        1040,
+        337
+      ],
+      [
+        1160,
+        327
+      ]
+    ],
+    "roads": [
+      [
+        [
+          -40,
+          210
+        ],
+        [
+          1240,
+          250
+        ]
+      ],
+      [
+        [
+          350,
+          -40
+        ],
+        [
+          436,
+          800
+        ]
+      ]
+    ],
+    "generatedAt": "2026-07-04T15:44:37.571Z"
+  },
+  "himachal": {
+    "hazards": [
+      {
+        "id": "hz-himachal-0",
+        "regionId": "himachal",
+        "type": "flood",
+        "name": "Flood Inundation Pocket A",
+        "cx": 345,
+        "cy": 198,
+        "r": 79,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-1",
+        "regionId": "himachal",
+        "type": "flood",
+        "name": "Waterlogged Sector B",
+        "cx": 119,
+        "cy": 252,
+        "r": 78,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-2",
+        "regionId": "himachal",
+        "type": "transmission",
+        "name": "400kV Transmission Line C",
+        "cx": 909,
+        "cy": 664,
+        "r": 30,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-3",
+        "regionId": "himachal",
+        "type": "transmission",
+        "name": "220kV Transmission Corridor D",
+        "cx": 869,
+        "cy": 312,
+        "r": 31,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-4",
+        "regionId": "himachal",
+        "type": "mobile_tower",
+        "name": "Signal Tower E",
+        "cx": 266,
+        "cy": 668,
+        "r": 21,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-5",
+        "regionId": "himachal",
+        "type": "mobile_tower",
+        "name": "Telecom Mast F",
+        "cx": 859,
+        "cy": 515,
+        "r": 27,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-6",
+        "regionId": "himachal",
+        "type": "substation",
+        "name": "Grid Substation A",
+        "cx": 115,
+        "cy": 364,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-7",
+        "regionId": "himachal",
+        "type": "building",
+        "name": "High-Rise Cluster B",
+        "cx": 148,
+        "cy": 462,
+        "r": 27,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-8",
+        "regionId": "himachal",
+        "type": "building",
+        "name": "High-Rise Cluster C",
+        "cx": 712,
+        "cy": 152,
+        "r": 24,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-9",
+        "regionId": "himachal",
+        "type": "nofly",
+        "name": "Temporary No-Fly Corridor D",
+        "cx": 680,
+        "cy": 493,
+        "r": 62,
+        "isHazard": true
+      },
+      {
+        "id": "hz-himachal-10",
+        "regionId": "himachal",
+        "type": "bridge",
+        "name": "Road Bridge E",
+        "cx": 540,
+        "cy": 622,
+        "r": 14,
+        "isHazard": false
+      },
+      {
+        "id": "hz-himachal-11",
+        "regionId": "himachal",
+        "type": "relief_camp",
+        "name": "Evacuation Shelter F",
+        "cx": 619,
+        "cy": 95,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-himachal-12",
+        "regionId": "himachal",
+        "type": "relief_camp",
+        "name": "Relief Camp A",
+        "cx": 1000,
+        "cy": 343,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-himachal-13",
+        "regionId": "himachal",
+        "type": "hospital",
+        "name": "Community Health Center B",
+        "cx": 801,
+        "cy": 579,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-himachal-14",
+        "regionId": "himachal",
+        "type": "safe_zone",
+        "name": "Safe Drone Zone C",
+        "cx": 202,
+        "cy": 508,
+        "r": 18,
+        "isHazard": false
+      },
+      {
+        "id": "hz-himachal-15",
+        "regionId": "himachal",
+        "type": "safe_zone",
+        "name": "Cleared Landing Pad D",
+        "cx": 1077,
+        "cy": 305,
+        "r": 18,
+        "isHazard": false
+      }
+    ],
+    "river": [
+      [
+        -40,
+        471
+      ],
+      [
+        80,
+        443
+      ],
+      [
+        200,
+        419
+      ],
+      [
+        320,
+        374
+      ],
+      [
+        440,
+        341
+      ],
+      [
+        560,
+        299
+      ],
+      [
+        680,
+        284
+      ],
+      [
+        800,
+        293
+      ],
+      [
+        920,
+        356
+      ],
+      [
+        1040,
+        404
+      ],
+      [
+        1160,
+        451
+      ]
+    ],
+    "roads": [
+      [
+        [
+          -40,
+          205
+        ],
+        [
+          1240,
+          244
+        ]
+      ],
+      [
+        [
+          372,
+          -40
+        ],
+        [
+          497,
+          800
+        ]
+      ]
+    ],
+    "generatedAt": "2026-07-04T15:44:53.417Z"
+  },
+  "jk": {
+    "hazards": [
+      {
+        "id": "hz-jk-0",
+        "regionId": "jk",
+        "type": "flood",
+        "name": "Flood Inundation Pocket A",
+        "cx": 165,
+        "cy": 411,
+        "r": 66,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-1",
+        "regionId": "jk",
+        "type": "flood",
+        "name": "Submerged Corridor B",
+        "cx": 728,
+        "cy": 450,
+        "r": 75,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-2",
+        "regionId": "jk",
+        "type": "transmission",
+        "name": "High-Voltage Tower Cluster C",
+        "cx": 782,
+        "cy": 496,
+        "r": 27,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-3",
+        "regionId": "jk",
+        "type": "transmission",
+        "name": "400kV Transmission Line D",
+        "cx": 855,
+        "cy": 601,
+        "r": 34,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-4",
+        "regionId": "jk",
+        "type": "mobile_tower",
+        "name": "Signal Tower E",
+        "cx": 842,
+        "cy": 484,
+        "r": 28,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-5",
+        "regionId": "jk",
+        "type": "mobile_tower",
+        "name": "Telecom Mast F",
+        "cx": 701,
+        "cy": 369,
+        "r": 27,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-6",
+        "regionId": "jk",
+        "type": "substation",
+        "name": "Power Distribution Yard A",
+        "cx": 234,
+        "cy": 351,
+        "r": 25,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-7",
+        "regionId": "jk",
+        "type": "building",
+        "name": "High-Rise Cluster B",
+        "cx": 194,
+        "cy": 160,
+        "r": 28,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-8",
+        "regionId": "jk",
+        "type": "building",
+        "name": "Residential High-Rise C",
+        "cx": 566,
+        "cy": 565,
+        "r": 24,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-9",
+        "regionId": "jk",
+        "type": "nofly",
+        "name": "Emergency Ops No-Fly Zone D",
+        "cx": 477,
+        "cy": 610,
+        "r": 83,
+        "isHazard": true
+      },
+      {
+        "id": "hz-jk-10",
+        "regionId": "jk",
+        "type": "bridge",
+        "name": "Rail Bridge E",
+        "cx": 272,
+        "cy": 333,
+        "r": 14,
+        "isHazard": false
+      },
+      {
+        "id": "hz-jk-11",
+        "regionId": "jk",
+        "type": "relief_camp",
+        "name": "Relief Camp F",
+        "cx": 474,
+        "cy": 619,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-jk-12",
+        "regionId": "jk",
+        "type": "relief_camp",
+        "name": "Evacuation Shelter A",
+        "cx": 258,
+        "cy": 249,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-jk-13",
+        "regionId": "jk",
+        "type": "hospital",
+        "name": "Field Medical Post B",
+        "cx": 949,
+        "cy": 499,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-jk-14",
+        "regionId": "jk",
+        "type": "safe_zone",
+        "name": "Verified Landing Site C",
+        "cx": 344,
+        "cy": 235,
+        "r": 18,
+        "isHazard": false
+      },
+      {
+        "id": "hz-jk-15",
+        "regionId": "jk",
+        "type": "safe_zone",
+        "name": "Cleared Landing Pad D",
+        "cx": 381,
+        "cy": 204,
+        "r": 18,
+        "isHazard": false
+      }
+    ],
+    "river": [
+      [
+        -40,
+        454
+      ],
+      [
+        80,
+        455
+      ],
+      [
+        200,
+        403
+      ],
+      [
+        320,
+        344
+      ],
+      [
+        440,
+        310
+      ],
+      [
+        560,
+        294
+      ],
+      [
+        680,
+        279
+      ],
+      [
+        800,
+        308
+      ],
+      [
+        920,
+        367
+      ],
+      [
+        1040,
+        436
+      ],
+      [
+        1160,
+        456
+      ]
+    ],
+    "roads": [
+      [
+        [
+          -40,
+          194
+        ],
+        [
+          1240,
+          192
+        ]
+      ],
+      [
+        [
+          383,
+          -40
+        ],
+        [
+          446,
+          800
+        ]
+      ]
+    ],
+    "generatedAt": "2026-07-04T15:44:58.327Z"
+  },
+  "goa": {
+    "hazards": [
+      {
+        "id": "hz-goa-0",
+        "regionId": "goa",
+        "type": "flood",
+        "name": "Flood Inundation Pocket A",
+        "cx": 717,
+        "cy": 267,
+        "r": 87,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-1",
+        "regionId": "goa",
+        "type": "flood",
+        "name": "Flood Inundation Pocket B",
+        "cx": 302,
+        "cy": 255,
+        "r": 80,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-2",
+        "regionId": "goa",
+        "type": "transmission",
+        "name": "220kV Transmission Corridor C",
+        "cx": 623,
+        "cy": 161,
+        "r": 35,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-3",
+        "regionId": "goa",
+        "type": "transmission",
+        "name": "400kV Transmission Line D",
+        "cx": 255,
+        "cy": 105,
+        "r": 26,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-4",
+        "regionId": "goa",
+        "type": "mobile_tower",
+        "name": "Signal Tower E",
+        "cx": 510,
+        "cy": 115,
+        "r": 20,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-5",
+        "regionId": "goa",
+        "type": "mobile_tower",
+        "name": "Telecom Mast F",
+        "cx": 1016,
+        "cy": 102,
+        "r": 23,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-6",
+        "regionId": "goa",
+        "type": "substation",
+        "name": "Power Distribution Yard A",
+        "cx": 587,
+        "cy": 267,
+        "r": 25,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-7",
+        "regionId": "goa",
+        "type": "building",
+        "name": "High-Rise Cluster B",
+        "cx": 1085,
+        "cy": 409,
+        "r": 23,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-8",
+        "regionId": "goa",
+        "type": "building",
+        "name": "Residential High-Rise C",
+        "cx": 148,
+        "cy": 571,
+        "r": 29,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-9",
+        "regionId": "goa",
+        "type": "nofly",
+        "name": "Temporary No-Fly Corridor D",
+        "cx": 203,
+        "cy": 155,
+        "r": 75,
+        "isHazard": true
+      },
+      {
+        "id": "hz-goa-10",
+        "regionId": "goa",
+        "type": "bridge",
+        "name": "Rail Bridge E",
+        "cx": 836,
+        "cy": 444,
+        "r": 14,
+        "isHazard": false
+      },
+      {
+        "id": "hz-goa-11",
+        "regionId": "goa",
+        "type": "relief_camp",
+        "name": "Temporary Relief Center F",
+        "cx": 632,
+        "cy": 590,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-goa-12",
+        "regionId": "goa",
+        "type": "relief_camp",
+        "name": "Evacuation Shelter A",
+        "cx": 986,
+        "cy": 315,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-goa-13",
+        "regionId": "goa",
+        "type": "hospital",
+        "name": "Field Medical Post B",
+        "cx": 703,
+        "cy": 300,
+        "r": 16,
+        "isHazard": false
+      },
+      {
+        "id": "hz-goa-14",
+        "regionId": "goa",
+        "type": "safe_zone",
+        "name": "Safe Drone Zone C",
+        "cx": 858,
+        "cy": 600,
+        "r": 18,
+        "isHazard": false
+      },
+      {
+        "id": "hz-goa-15",
+        "regionId": "goa",
+        "type": "safe_zone",
+        "name": "Safe Drone Zone D",
+        "cx": 328,
+        "cy": 556,
+        "r": 18,
+        "isHazard": false
+      }
+    ],
+    "river": [
+      [
+        -40,
+        415
+      ],
+      [
+        80,
+        342
+      ],
+      [
+        200,
+        311
+      ],
+      [
+        320,
+        276
+      ],
+      [
+        440,
+        298
+      ],
+      [
+        560,
+        321
+      ],
+      [
+        680,
+        358
+      ],
+      [
+        800,
+        406
+      ],
+      [
+        920,
+        432
+      ],
+      [
+        1040,
+        470
+      ],
+      [
+        1160,
+        465
+      ]
+    ],
+    "roads": [
+      [
+        [
+          -40,
+          222
+        ],
+        [
+          1240,
+          247
+        ]
+      ],
+      [
+        [
+          377,
+          -40
+        ],
+        [
+          494,
+          800
+        ]
+      ]
+    ],
+    "generatedAt": "2026-07-04T15:45:30.419Z"
+  }
+}

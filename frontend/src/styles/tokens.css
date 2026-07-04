@@ -1,0 +1,71 @@
+/**
+ * AeroTwin design tokens.
+ * Every component should read colors/spacing/type from these variables
+ * rather than hard-coding values, so the dark/light theme swap (Phase 11)
+ * and any future re-skin only touches this file.
+ */
+:root {
+  /* ---- surfaces ---- */
+  --at-void: #080b10;
+  --at-void-2: #0d1219;
+  --at-panel: rgba(20, 26, 36, 0.62);
+  --at-panel-solid: #141a24;
+  --at-line: rgba(255, 255, 255, 0.07);
+  --at-line-strong: rgba(255, 255, 255, 0.14);
+
+  /* ---- brand / semantic accents ---- */
+  --at-violet: #7c8cff;   /* primary / interactive / route-in-progress */
+  --at-violet-dim: rgba(124, 140, 255, 0.16);
+  --at-teal: #3fe8c5;     /* success / safe / cleared */
+  --at-teal-dim: rgba(63, 232, 197, 0.16);
+  --at-magenta: #ff4f8b;  /* danger / hazard breach */
+  --at-magenta-dim: rgba(255, 79, 139, 0.16);
+  --at-amber: #ffb454;    /* warning / caution */
+  --at-amber-dim: rgba(255, 180, 84, 0.16);
+
+  /* ---- text ---- */
+  --at-hi: #edf1f7;
+  --at-lo: #8b96a8;
+  --at-lo-2: #5b6577;
+
+  /* ---- hazard type colors (used by the mission canvas legend) ---- */
+  --at-haz-flood: #2fb6ff;
+  --at-haz-power: #ff4f8b;
+  --at-haz-building: #ffb454;
+  --at-haz-nofly: #ff3b5c;
+  --at-poi-neutral: #8b96a8;
+  --at-poi-safe: #3fe8c5;
+  --at-poi-medical: #7c8cff;
+
+  /* ---- radii ---- */
+  --at-radius-lg: 22px;
+  --at-radius-md: 14px;
+  --at-radius-sm: 9px;
+  --at-radius-pill: 999px;
+
+  /* ---- type ---- */
+  --at-font-display: 'Space Grotesk', sans-serif;
+  --at-font-body: 'Inter', sans-serif;
+  --at-font-mono: 'JetBrains Mono', monospace;
+
+  /* ---- elevation ---- */
+  --at-shadow-soft: 0 8px 24px -8px rgba(0, 0, 0, 0.45);
+  --at-shadow-glow-violet: 0 8px 24px -8px rgba(124, 140, 255, 0.65);
+}
+
+/**
+ * Light theme overrides. Applied via `<body class="theme-light">`
+ * (wired up in Phase 11). Only surfaces and text need to flip —
+ * semantic accents stay identical so hazard meaning never changes.
+ */
+body.theme-light {
+  --at-void: #eef1f6;
+  --at-void-2: #e4e9f0;
+  --at-panel: rgba(255, 255, 255, 0.72);
+  --at-panel-solid: #ffffff;
+  --at-line: rgba(20, 26, 36, 0.09);
+  --at-line-strong: rgba(20, 26, 36, 0.16);
+  --at-hi: #141a24;
+  --at-lo: #5b6577;
+  --at-lo-2: #8b96a8;
+}

@@ -1,0 +1,20 @@
+[
+  { "id": "delhi", "name": "Delhi Yamuna Basin", "state": "Delhi", "zone": "North India", "river": "Yamuna" },
+  { "id": "uttarakhand", "name": "Rishikesh Flood Corridor", "state": "Uttarakhand", "zone": "North India", "river": "Ganga" },
+  { "id": "himachal", "name": "Kullu Valley Watershed", "state": "Himachal Pradesh", "zone": "North India", "river": "Beas" },
+  { "id": "punjab", "name": "Sutlej Basin Sector", "state": "Punjab", "zone": "North India", "river": "Sutlej" },
+  { "id": "up", "name": "Prayagraj Confluence Zone", "state": "Uttar Pradesh", "zone": "North India", "river": "Ganga-Yamuna" },
+  { "id": "jk", "name": "Jhelum Valley Corridor", "state": "Jammu & Kashmir", "zone": "North India", "river": "Jhelum" },
+  { "id": "kerala", "name": "Periyar Backwater Zone", "state": "Kerala", "zone": "South India", "river": "Periyar" },
+  { "id": "chennai", "name": "Chennai Coastal Basin", "state": "Tamil Nadu", "zone": "South India", "river": "Adyar" },
+  { "id": "karnataka", "name": "Cauvery Delta Sector", "state": "Karnataka", "zone": "South India", "river": "Cauvery" },
+  { "id": "ap", "name": "Godavari Delta Zone", "state": "Andhra Pradesh", "zone": "South India", "river": "Godavari" },
+  { "id": "telangana", "name": "Musi River Corridor", "state": "Telangana", "zone": "South India", "river": "Musi" },
+  { "id": "assam", "name": "Brahmaputra Char Zone", "state": "Assam", "zone": "East India", "river": "Brahmaputra" },
+  { "id": "bihar", "name": "Kosi Basin Sector", "state": "Bihar", "zone": "East India", "river": "Kosi" },
+  { "id": "wb", "name": "Sundarbans Delta Fringe", "state": "West Bengal", "zone": "East India", "river": "Hooghly" },
+  { "id": "odisha", "name": "Mahanadi Delta Zone", "state": "Odisha", "zone": "East India", "river": "Mahanadi" },
+  { "id": "maharashtra", "name": "Mithi River Basin", "state": "Maharashtra", "zone": "West India", "river": "Mithi" },
+  { "id": "gujarat", "name": "Narmada Estuary Sector", "state": "Gujarat", "zone": "West India", "river": "Narmada" },
+  { "id": "goa", "name": "Mandovi Flood Corridor", "state": "Goa", "zone": "West India", "river": "Mandovi" }
+]

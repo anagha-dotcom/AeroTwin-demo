@@ -1,0 +1,514 @@
+.at-workspace {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--at-void);
+}
+
+/* ============================= TOPBAR ============================= */
+.at-topbar {
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+  border-bottom: 1px solid var(--at-line);
+  background: var(--at-panel-solid);
+  z-index: 20;
+}
+.at-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.at-topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--at-font-display);
+  font-weight: 700;
+  font-size: 15px;
+}
+.at-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ============================= SCENARIO SELECT ============================= */
+.at-scenario-select {
+  position: relative;
+}
+.at-scenario-btn {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 13px;
+  border-radius: 10px;
+  border: 1px solid var(--at-line-strong);
+  background: var(--at-void-2);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--at-hi);
+  min-width: 230px;
+  text-align: left;
+}
+.at-scenario-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  width: 340px;
+  max-height: 420px;
+  overflow-y: auto;
+  z-index: 50;
+  padding: 10px;
+}
+.at-scenario-search {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 9px;
+  border: 1px solid var(--at-line);
+  background: var(--at-void-2);
+  color: var(--at-hi);
+  font-size: 12.5px;
+  margin-bottom: 8px;
+  outline: none;
+}
+.at-scenario-search:focus {
+  border-color: var(--at-violet);
+}
+.at-scenario-group-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--at-lo-2);
+  padding: 8px 8px 4px;
+  font-weight: 700;
+}
+.at-scenario-item {
+  padding: 9px 10px;
+  border-radius: 9px;
+  font-size: 12.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: inherit;
+}
+.at-scenario-item:hover {
+  background: var(--at-violet-dim);
+}
+.at-scenario-item.is-active {
+  background: var(--at-violet-dim);
+  border: 1px solid rgba(124, 140, 255, 0.4);
+}
+.at-scenario-item .at-si-title {
+  font-weight: 600;
+}
+.at-scenario-item .at-si-sub {
+  color: var(--at-lo);
+  font-size: 11px;
+}
+
+/* ============================= WORKSPACE GRID ============================= */
+.at-workspace-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 280px 1fr 320px;
+  overflow: hidden;
+  min-height: 0;
+}
+.at-panel {
+  overflow-y: auto;
+  padding: 16px;
+  border-right: 1px solid var(--at-line);
+}
+.at-panel.at-panel--right {
+  border-right: none;
+  border-left: 1px solid var(--at-line);
+}
+.at-panel-block {
+  margin-bottom: 14px;
+}
+.at-panel-block h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--at-lo-2);
+  font-weight: 700;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ============================= KEY/VALUE ROWS ============================= */
+.at-kv-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+  font-size: 12.5px;
+  border-bottom: 1px dashed var(--at-line);
+}
+.at-kv-row:last-child {
+  border-bottom: none;
+}
+.at-kv-row .at-k {
+  color: var(--at-lo);
+}
+.at-kv-row .at-v {
+  font-weight: 600;
+  font-family: var(--at-font-mono);
+  font-size: 12px;
+}
+
+/* ============================= QUICK STATS ============================= */
+.at-mini-stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.at-mini-stat {
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--at-void-2);
+  border: 1px solid var(--at-line);
+}
+.at-mini-stat .at-ms-icon {
+  margin-bottom: 8px;
+  color: var(--at-violet);
+}
+.at-mini-stat .at-ms-val {
+  font-family: var(--at-font-mono);
+  font-size: 17px;
+  font-weight: 600;
+}
+.at-mini-stat .at-ms-lbl {
+  font-size: 10.5px;
+  color: var(--at-lo-2);
+  margin-top: 2px;
+}
+
+/* ============================= BATTERY / TIMER ============================= */
+.at-battery-track {
+  height: 8px;
+  border-radius: 6px;
+  background: var(--at-void-2);
+  overflow: hidden;
+  margin-top: 8px;
+  border: 1px solid var(--at-line);
+}
+.at-battery-fill {
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--at-teal), #8cffd9);
+  transition: width 0.6s ease;
+}
+.at-timer-display {
+  font-family: var(--at-font-mono);
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px 0 4px;
+}
+.at-timer-sub {
+  text-align: center;
+  font-size: 10.5px;
+  color: var(--at-lo-2);
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+/* ============================= CENTER CANVAS (placeholder for Phase 9) ============================= */
+.at-canvas-wrap {
+  position: relative;
+  overflow: hidden;
+  background: var(--at-void-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.at-canvas-toolbar {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 10;
+  display: flex;
+  gap: 8px;
+  padding: 6px;
+  align-items: center;
+}
+.at-canvas-toolbar .at-sep {
+  width: 1px;
+  height: 20px;
+  background: var(--at-line-strong);
+  margin: 0 2px;
+}
+.at-canvas-placeholder {
+  text-align: center;
+  color: var(--at-lo-2);
+  max-width: 320px;
+  padding: 32px;
+}
+.at-canvas-placeholder .at-icon-lg {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 16px;
+  opacity: 0.5;
+}
+.at-canvas-placeholder h5 {
+  font-family: var(--at-font-display);
+  color: var(--at-lo);
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.at-canvas-placeholder p {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.at-legend-box {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  z-index: 10;
+  padding: 12px 14px;
+  max-width: 230px;
+}
+.at-legend-box h5 {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--at-lo-2);
+  margin-bottom: 9px;
+  font-weight: 700;
+}
+.at-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.5px;
+  padding: 3px 0;
+  color: var(--at-lo);
+  cursor: pointer;
+  user-select: none;
+}
+.at-legend-item.is-off {
+  opacity: 0.35;
+  text-decoration: line-through;
+}
+.at-legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.at-zoom-controls {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.at-hint-box {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 10;
+  padding: 10px 14px;
+  font-size: 11px;
+  color: var(--at-lo);
+  max-width: 200px;
+  line-height: 1.6;
+}
+.at-hint-box b {
+  color: var(--at-hi);
+}
+
+.at-canvas-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: crosshair;
+}
+.at-canvas-svg.is-panning {
+  cursor: grabbing;
+}
+
+/* ============================= VALIDATION GAUGE ============================= */
+.at-scoregauge-wrap {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.at-scoregauge {
+  position: relative;
+  width: 74px;
+  height: 74px;
+  flex-shrink: 0;
+}
+.at-scoregauge .at-sg-val {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--at-font-mono);
+  font-weight: 700;
+  font-size: 17px;
+}
+
+/* ============================= LOG / ALERTS ============================= */
+.at-log-item {
+  display: flex;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px dashed var(--at-line);
+  font-size: 11.5px;
+}
+.at-log-item:last-child {
+  border-bottom: none;
+}
+.at-log-time {
+  font-family: var(--at-font-mono);
+  color: var(--at-lo-2);
+  flex-shrink: 0;
+  font-size: 10.5px;
+  padding-top: 1px;
+}
+.at-log-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+.at-log-text {
+  color: var(--at-lo);
+  line-height: 1.5;
+}
+.at-log-text b {
+  color: var(--at-hi);
+}
+
+.at-empty-state {
+  text-align: center;
+  padding: 28px 10px;
+  color: var(--at-lo-2);
+  font-size: 12px;
+}
+.at-empty-state .at-icon {
+  width: 26px;
+  height: 26px;
+  margin: 0 auto 10px;
+  opacity: 0.5;
+}
+
+/* ============================= VALIDATION RESULT CARDS ============================= */
+.at-alert-card {
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid var(--at-magenta);
+  background: linear-gradient(160deg, rgba(255, 79, 139, 0.16), rgba(255, 79, 139, 0.04));
+  animation: at-slide-in 0.4s cubic-bezier(0.2, 0.9, 0.25, 1);
+}
+.at-success-card {
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid var(--at-teal);
+  background: linear-gradient(160deg, rgba(63, 232, 197, 0.16), rgba(63, 232, 197, 0.04));
+  animation: at-slide-in 0.4s cubic-bezier(0.2, 0.9, 0.25, 1);
+}
+@keyframes at-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.at-alert-card .at-ac-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 12.5px;
+  color: var(--at-magenta);
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+.at-success-card .at-sc-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 12.5px;
+  color: var(--at-teal);
+  letter-spacing: 0.3px;
+}
+.at-alert-card .at-ac-row,
+.at-success-card .at-ac-row {
+  font-size: 11.5px;
+  color: var(--at-lo);
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+}
+.at-alert-card .at-ac-row b,
+.at-success-card .at-ac-row b {
+  color: var(--at-hi);
+  font-family: var(--at-font-mono);
+  font-weight: 600;
+}
+.at-alert-card .at-ac-note {
+  margin-top: 10px;
+  font-size: 11.5px;
+  color: var(--at-hi);
+  line-height: 1.55;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 8px 10px;
+  border-radius: 9px;
+}
+
+/* ============================= HAZARD BREACH PULSE (Phase 10 triggers this) ============================= */
+.at-hazard-breach-pulse {
+  animation: at-hazard-pulse 1.1s ease-in-out infinite;
+}
+@keyframes at-hazard-pulse {
+  0%,
+  100% {
+    stroke-opacity: 1;
+  }
+  50% {
+    stroke-opacity: 0.35;
+  }
+}
+
+@media (max-width: 980px) {
+  .at-workspace-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+  .at-panel {
+    border-right: none;
+    border-bottom: 1px solid var(--at-line);
+    max-height: 220px;
+  }
+  .at-panel.at-panel--right {
+    border-left: none;
+    border-top: 1px solid var(--at-line);
+  }
+}

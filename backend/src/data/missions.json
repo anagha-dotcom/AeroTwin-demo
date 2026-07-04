@@ -1,0 +1,24 @@
+[
+  {
+    "id": "MSN-DEMO001",
+    "name": "Kochi Backwater Response",
+    "regionId": "kerala",
+    "operator": "S. Nair",
+    "drone": "Kestrel-3",
+    "status": "safe",
+    "safetyScore": 94,
+    "distanceKm": 3.2,
+    "createdAt": "2026-06-18T06:42:00.000Z"
+  },
+  {
+    "id": "MSN-DEMO002",
+    "name": "Kosi Basin Relief Run",
+    "regionId": "bihar",
+    "operator": "D. Rathore",
+    "drone": "Falcon-7",
+    "status": "unsafe",
+    "safetyScore": 38,
+    "distanceKm": 5.7,
+    "createdAt": "2026-06-21T11:05:00.000Z"
+  }
+]
